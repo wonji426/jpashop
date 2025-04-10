@@ -12,7 +12,7 @@ spring:
 #      hibernate:
 #        show_sql: true
 #        format_sql: true
-
+# 위의 코드는 메모리 BD 테스트에서는 생략해도됨
 logging:
   level:
     org.hibernate.SQL: debug
