@@ -7,4 +7,5 @@ import lombok.Setter;
 @Setter
 public class Hello {
     private String data;
+//연습용 코드
 }
