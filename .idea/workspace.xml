@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="224e0d86-8b57-4e1c-999f-2707adb799a4" name="Changes" comment="API 개발 기본&#10;- 회원 조회 API" />
+    <list default="true" id="224e0d86-8b57-4e1c-999f-2707adb799a4" name="Changes" comment="API 개발 기본&#10;- 회원 조회 API">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/InitDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1749021628224</updated>
-      <workItem from="1749021628689" duration="5537000" />
+      <workItem from="1749021628689" duration="6207000" />
     </task>
     <task id="LOCAL-00001" summary="API 개발 기본&#10;- 회원 등록 API">
       <option name="closed" value="true" />
@@ -150,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749032866374</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="API 개발 기본&#10;- 회원 조회 API">
+      <option name="closed" value="true" />
+      <created>1749032967532</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1749032967532</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
