@@ -38,7 +38,15 @@ public class OrderApiController {
     public List<OrderDto> ordersV2() {
         List<Order> orders = orderRepository.findAllByString(new OrderSearch());
         return orders.stream()
-                .map(o -> new OrderDto(o))
+                .map(OrderDto::new)
+                .toList();
+    }
+
+    @GetMapping("/api/v3/orders")
+    public List<OrderDto> ordersV3() {
+        List<Order> orders = orderRepository.findAllWithItem();
+        return orders.stream()
+                .map(OrderDto::new)
                 .toList();
     }
 
@@ -59,7 +67,7 @@ public class OrderApiController {
             orderStatus = order.getStatus();
             address = order.getDelivery().getAddress();
             orderItems = order.getOrderItems().stream()
-                    .map(orderItem -> new OrderItemDto(orderItem))
+                    .map(OrderItemDto::new)
                     .toList();
         }
     }
