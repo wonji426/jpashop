@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="224e0d86-8b57-4e1c-999f-2707adb799a4" name="Changes" comment="API 개발 고급 - 컬렉션 조회 최적화&#10;- 주문 조회 V2: 엔티티를 DTO로 변환">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    <list default="true" id="224e0d86-8b57-4e1c-999f-2707adb799a4" name="Changes" comment="API 개발 고급 - 컬렉션 조회 최적화&#10;- 주문 조회 V3: 엔티티를 DTO로 변환 - 페치 조인 최적화">
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/api/OrderApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/api/OrderApiController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,8 +107,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
       </set>
     </attachedChunks>
   </component>
@@ -129,7 +125,9 @@
       <workItem from="1749021628689" duration="6522000" />
       <workItem from="1749381709989" duration="4759000" />
       <workItem from="1749532968525" duration="2620000" />
-      <workItem from="1749536084730" duration="3980000" />
+      <workItem from="1749536084730" duration="4000000" />
+      <workItem from="1749628598108" duration="304000" />
+      <workItem from="1749628958482" duration="3549000" />
     </task>
     <task id="LOCAL-00001" summary="API 개발 기본&#10;- 회원 등록 API">
       <option name="closed" value="true" />
@@ -211,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749538029457</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="API 개발 고급 - 컬렉션 조회 최적화&#10;- 주문 조회 V3: 엔티티를 DTO로 변환 - 페치 조인 최적화">
+      <option name="closed" value="true" />
+      <created>1749540109455</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1749540109455</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +232,7 @@
     <MESSAGE value="API 개발 고급 - 지연로딩과 조회 성능 최적화&#10;- 간단한 주문 조회 V4 : JPA에서 DTO로 바로 조회" />
     <MESSAGE value="API 개발 고급 - 컬렉션 조회 최적화&#10;- 주문 조회 V1: 엔티티 직접 노출" />
     <MESSAGE value="API 개발 고급 - 컬렉션 조회 최적화&#10;- 주문 조회 V2: 엔티티를 DTO로 변환" />
-    <option name="LAST_COMMIT_MESSAGE" value="API 개발 고급 - 컬렉션 조회 최적화&#10;- 주문 조회 V2: 엔티티를 DTO로 변환" />
+    <MESSAGE value="API 개발 고급 - 컬렉션 조회 최적화&#10;- 주문 조회 V3: 엔티티를 DTO로 변환 - 페치 조인 최적화" />
+    <option name="LAST_COMMIT_MESSAGE" value="API 개발 고급 - 컬렉션 조회 최적화&#10;- 주문 조회 V3: 엔티티를 DTO로 변환 - 페치 조인 최적화" />
   </component>
 </project>
