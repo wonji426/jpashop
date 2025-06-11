@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="224e0d86-8b57-4e1c-999f-2707adb799a4" name="Changes" comment="API 개발 고급 - 컬렉션 조회 최적화&#10;- 주문 조회 V3.1: 엔티티를 DTO로 변환 - 페이징과 한계 돌파">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/repository/order/query/OrderItemQueryDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/repository/order/query/OrderQueryDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/repository/order/query/OrderQueryRepository.java" afterDir="false" />
+    <list default="true" id="224e0d86-8b57-4e1c-999f-2707adb799a4" name="Changes" comment="API 개발 고급 - 컬렉션 조회 최적화&#10;- 주문 조회 V4: JPA에서 DTO 직접 조회">
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
@@ -16,6 +13,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/api/OrderApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/api/OrderApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/repository/order/query/OrderQueryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/repository/order/query/OrderQueryRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +136,7 @@
       <workItem from="1749532968525" duration="2620000" />
       <workItem from="1749536084730" duration="4000000" />
       <workItem from="1749628598108" duration="304000" />
-      <workItem from="1749628958482" duration="5125000" />
+      <workItem from="1749628958482" duration="6481000" />
     </task>
     <task id="LOCAL-00001" summary="API 개발 기본&#10;- 회원 등록 API">
       <option name="closed" value="true" />
@@ -236,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749637632935</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="API 개발 고급 - 컬렉션 조회 최적화&#10;- 주문 조회 V4: JPA에서 DTO 직접 조회">
+      <option name="closed" value="true" />
+      <created>1749639424143</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1749639424143</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +259,7 @@
     <MESSAGE value="API 개발 고급 - 컬렉션 조회 최적화&#10;- 주문 조회 V2: 엔티티를 DTO로 변환" />
     <MESSAGE value="API 개발 고급 - 컬렉션 조회 최적화&#10;- 주문 조회 V3: 엔티티를 DTO로 변환 - 페치 조인 최적화" />
     <MESSAGE value="API 개발 고급 - 컬렉션 조회 최적화&#10;- 주문 조회 V3.1: 엔티티를 DTO로 변환 - 페이징과 한계 돌파" />
-    <option name="LAST_COMMIT_MESSAGE" value="API 개발 고급 - 컬렉션 조회 최적화&#10;- 주문 조회 V3.1: 엔티티를 DTO로 변환 - 페이징과 한계 돌파" />
+    <MESSAGE value="API 개발 고급 - 컬렉션 조회 최적화&#10;- 주문 조회 V4: JPA에서 DTO 직접 조회" />
+    <option name="LAST_COMMIT_MESSAGE" value="API 개발 고급 - 컬렉션 조회 최적화&#10;- 주문 조회 V4: JPA에서 DTO 직접 조회" />
   </component>
 </project>
